@@ -16,7 +16,7 @@ public class Ecole {
             etudiants[nombreEtudiants] = etudiant;
             nombreEtudiants++;
         } else {
-            throw new EtudiantExisteException("The school is full ");
+            throw new EtudiantExisteException("Student Already Exists");
         }
     }
 
